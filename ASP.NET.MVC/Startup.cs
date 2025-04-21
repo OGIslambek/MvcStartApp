@@ -37,7 +37,6 @@ namespace ASP.NET.MVC
             services.AddControllersWithViews();
 
         }
-                
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
